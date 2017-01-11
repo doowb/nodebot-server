@@ -2,9 +2,9 @@
 
 var Emitter = require('component-emitter');
 
-module.exports = function(fp, cb) {
+module.exports = function(config, cb) {
   var emitter = new Emitter();
-  var app = require('./server')(fp);
+  var app = require('./server')(config);
   var http = require('http').Server(app);
   var io = require('socket.io')(http);
 
