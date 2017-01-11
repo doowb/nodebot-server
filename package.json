@@ -1,7 +1,7 @@
 {
   "name": "nodebot-server",
   "description": "Simple socket.io server for controlling a nodebot.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/doowb/nodebot-server",
   "author": "Brian Woodward (https://github.com/doowb)",
   "repository": "doowb/nodebot-server",
