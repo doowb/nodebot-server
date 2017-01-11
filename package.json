@@ -27,7 +27,9 @@
     "generategenerator"
   ],
   "dependencies": {
+    "component-emitter": "^1.2.1",
     "express": "^4.14.0",
+    "extend-shallow": "^2.0.1",
     "socket.io": "^1.7.2"
   }
 }
