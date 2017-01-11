@@ -1,12 +1,12 @@
 {
-  "name": "codemash-nodebots-server",
-  "description": "Simple socket server for controlling a nodebot.",
+  "name": "nodebot-server",
+  "description": "Simple socket.io server for controlling a nodebot.",
   "version": "0.1.0",
-  "homepage": "https://github.com/doowb/nodebots-server",
+  "homepage": "https://github.com/doowb/nodebot-server",
   "author": "Brian Woodward (https://github.com/doowb)",
-  "repository": "doowb/nodebots-server",
+  "repository": "doowb/nodebot-server",
   "bugs": {
-    "url": "https://github.com/doowb/nodebots-server/issues"
+    "url": "https://github.com/doowb/nodebot-server/issues"
   },
   "license": "MIT",
   "files": [
