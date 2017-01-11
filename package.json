@@ -1,5 +1,5 @@
 {
-  "name": "nodebots-server",
+  "name": "codemash-nodebots-server",
   "description": "Simple socket server for controlling a nodebot.",
   "version": "0.1.0",
   "homepage": "https://github.com/doowb/nodebots-server",
@@ -10,8 +10,10 @@
   },
   "license": "MIT",
   "files": [
-    "index.js",
-    "LICENSE"
+    "index.html",
+    "app.js",
+    "server.js",
+    "index.js"
   ],
   "main": "index.js",
   "engines": {
