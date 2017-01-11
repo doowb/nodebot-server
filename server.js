@@ -3,10 +3,10 @@
 var path = require('path');
 var express = require('express');
 
-module.exports = function(config) {
+module.exports = function(fp) {
   var app = express();
   app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(fp);
   });
 
   return app;
