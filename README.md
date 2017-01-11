@@ -70,19 +70,19 @@ Use [nodebot remote control](https://github.com/jonschlinkert/nodebot-remote-con
 
 Use the following steps to setup the [nodebot remote control](https://github.com/jonschlinkert/nodebot-remote-control):
 
-* Clone [nodebot-remote-control](https://github.com/jonschlinkert/nodebot-remote-control) into a vendor folder in your project:
+* Clone [nodebot-remote-control](https://github.com/jonschlinkert/nodebot-remote-control) into a vendor folder in your nodebot project:
 
 ```sh
 $ git clone https://github.com/jonschlinkert/nodebot-remote-control.git vendor/nodebot-remote-control
 ```
 
-* Copy the files in `dist` into a folder in your project that you want to serve web files from (we'll use `public`)
+* Copy the files from `dist` into a folder in your nodebot project (we'll use `public`)
 
 ```sh
-$ cp -r ./vendor/nodebot-remote-control/dist ./public
+$ cp -R ./vendor/nodebot-remote-control/dist/ ./public
 ```
 
-* Start the nodebot server after connecting to your nodebot:
+* Configure and start the [nodebot-server](https://github.com/doowb/nodebot-server) after connecting to your nodebot:
 
 ```js
 var path = require('path');
