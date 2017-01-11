@@ -66,7 +66,7 @@ app.on('cmd', function(cmd) {
 
 Use [nodebot remote control](https://github.com/jonschlinkert/nodebot-remote-control) to quickly get started with a UI for sending commands to the nodebot server.
 
-![nodebot remote control preview](https://raw.githubusercontent.com/jonschlinkert/nodebot-remote-control/master/src/nodebot-remote-control.jpg)
+[![nodebot remote control preview](https://raw.githubusercontent.com/jonschlinkert/nodebot-remote-control/master/src/nodebot-remote-control.jpg)](https://github.com/jonschlinkert/nodebot-remote-control)
 
 Use the following steps to setup the [nodebot remote control](https://github.com/jonschlinkert/nodebot-remote-control):
 
