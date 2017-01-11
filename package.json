@@ -22,16 +22,39 @@
     "test": "mocha"
   },
   "keywords": [
+    "assemble",
+    "codemash",
     "nodebot",
     "nodebots",
-    "socket.io",
-    "codemash",
-    "assemble"
+    "socket.io"
   ],
   "dependencies": {
     "component-emitter": "^1.2.1",
     "express": "^4.14.0",
     "extend-shallow": "^2.0.1",
     "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
