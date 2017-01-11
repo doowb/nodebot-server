@@ -10,8 +10,6 @@
   },
   "license": "MIT",
   "files": [
-    "index.html",
-    "app.js",
     "server.js",
     "index.js"
   ],
@@ -20,11 +18,15 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "node ./app.js",
+    "start": "node ./example.js",
     "test": "mocha"
   },
   "keywords": [
-    "generategenerator"
+    "nodebot",
+    "nodebots",
+    "socket.io",
+    "codemash",
+    "assemble"
   ],
   "dependencies": {
     "component-emitter": "^1.2.1",
